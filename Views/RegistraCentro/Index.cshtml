@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Registro";
+}
+
+    <div class="row jumbotron" style="background-image: url('img/gym.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div class="col-md-6 text-white text-center" style="margin-top: 2em;">
+            <h1>E-Wellness</h1>
+            <legend>Para iniciar, ingrese la informaci&oacute;n de su negocio</legend>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div id="CTA" class="col-md-10 text-center rounded" style=" background-color: #ffffff; margin-top: 2em; margin-bottom: 4em;">
+                    <input id="bussinesName" type="text" class="form-control" style="margin-top: 1em;" placeholder="Nombre del Centro de Entrenamiento">
+                    <textarea class="form-control" id="bussinesDesc" placeholder="Describa su negocio" style="margin-top: 1em;"></textarea>
+                    <div class="row">
+                        <div class="col">
+                            <input id="bussinesProv" type="text" class="form-control" style="margin-top: 1em;" placeholder="Provincia">
+                        </div>
+                        <div class="col">
+                            <input id="bussinesCant" type="text" class="form-control" style="margin-top: 1em;" placeholder="Cantón">
+                        </div>
+                        <div class="col">
+                            <input id="bussinesDist" type="text" class="form-control" style="margin-top: 1em;" placeholder="Distrito">
+                        </div>
+                    </div>
+                    <input id="bussinesAddress" type="text" class="form-control" style="margin-top: 1em;" placeholder="Dirección">
+                    <input id="bussinesPhone" type="text" class="form-control" style="margin-top: 1em;" placeholder="Teléfono">
+                    <input id="bussinesEmail" type="email" class="form-control" style="margin-top: 1em;" placeholder="Correo Electrónico">
+                    <div class="row">
+                        <div class="col">
+                            <input id="bussinesMaxCapacity" type="number" class="form-control" style="margin-top: 1em;" placeholder="Capacidad Máxima">
+                        </div>
+                        <div class="col">
+                            <input id="bussinesPercentCapacity" type="number" class="form-control" style="margin-top: 1em;" placeholder="Porcentaje permitido">
+                        </div>
+                    </div>
+                    <div class="custom-file" style="margin-top: 1em;">
+                        <input type="file" class="custom-file-input" id="fileChooserLogo" required>
+                        <label class="custom-file-label" for="fileChooserLogo">Seleccione su logo</label>
+                    </div>
+                    <div class="custom-file" style="margin-top: 1em;">
+                        <input type="file" class="custom-file-input" id="fileChooserImages" required>
+                        <label class="custom-file-label" for="fileChooserImages">Imágenes del Centro de Entrenamiento</label>
+                    </div>
+
+                    <a class="btn btn-outline-primary" onclick="btnVerRegistraCentro($('#bussinesName').val())" style="margin-top: 1em; margin-bottom: 2em"> Registrar </a>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
