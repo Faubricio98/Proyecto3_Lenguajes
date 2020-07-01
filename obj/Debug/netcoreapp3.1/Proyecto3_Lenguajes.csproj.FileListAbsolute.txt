@@ -36,3 +36,5 @@ C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Proyecto
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Proyecto3_Lenguajes.csproj.CopyComplete
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Proyecto3_Lenguajes.csprojAssemblyReference.cache
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\RegistraCentro\Index.cshtml.g.cs
+C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\IniciarSesion\Index.cshtml.g.cs
+C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Index.cshtml.g.cs
