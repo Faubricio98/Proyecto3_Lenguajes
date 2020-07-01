@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Administración";
+}
+
+
+<div class="jumbotron">
+    <div class="text-center">
+        <legend>Seleccione una opci&oacute;n del men&uacute;</legend>
+    </div>
+    <div class="row" style="margin-top: 1em;">
+        <div id="opcionesAdmin"></div>
+        <div id="accionOpciones"></div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    window.onload = function addAdminMenuItems() {
+        var myLi = this.document.createElement('li');
+        myLi.setAttribute("class", "nav-item");
+        //<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        var myA = this.document.createElement('button');
+        myA.setAttribute("class", "btn");
+        myA.setAttribute("id", "btnMyStab");
+        myA.setAttribute("type", "button");
+        myA.setAttribute("onclick", "btnVerMiEstablecimiento()");
+        myA.innerText = "Mi Establecimiento";
+        myLi.appendChild(myA);
+
+        var myA = this.document.createElement('button');
+        myA.setAttribute("class", "btn");
+        myA.setAttribute("id", "btnOnlineClass");
+        myA.setAttribute("type", "button");
+        myA.setAttribute("onclick", "probando()");
+        myA.innerText = "Clases Online";
+        myLi.appendChild(myA);
+
+        var myA = this.document.createElement('button');
+        myA.setAttribute("class", "btn");
+        myA.setAttribute("id", "btnResumen");
+        myA.setAttribute("type", "button");
+        myA.setAttribute("onclick", "probando()");
+        myA.innerText = "Resúmenes";
+        myLi.appendChild(myA);
+
+        var myA = this.document.createElement('button');
+        myA.setAttribute("class", "btn");
+        myA.setAttribute("id", "btnCerrarSesion");
+        myA.setAttribute("type", "button");
+        myA.setAttribute("onclick", "cerrarSesion()");
+        myA.innerText = "Cerrar Sesión";
+        myLi.appendChild(myA);
+
+
+        this.document.getElementById('ulMenu').appendChild(myLi);
+    }
+</script>
