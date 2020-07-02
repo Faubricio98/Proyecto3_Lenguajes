@@ -12,5 +12,10 @@ namespace Proyecto3_Lenguajes.Controllers
         {
             return View();
         }
+
+        public IActionResult CrearPDF(String fechaI, String fechaF)
+        {
+            return View("CrearDocumento");
+        }
     }
 }
