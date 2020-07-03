@@ -39,3 +39,4 @@ C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Vi
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\IniciarSesion\Index.cshtml.g.cs
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\Index.cshtml.g.cs
 C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\Administrador\CrearDocumento.cshtml.g.cs
+C:\Users\congr\source\repos\Proyecto3_Lenguajes\obj\Debug\netcoreapp3.1\Razor\Views\CentrosCliente\Index.cshtml.g.cs

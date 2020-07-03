@@ -57,3 +57,20 @@
         </div>
     </div>
 </div>
+
+
+<script type="text/javascript">
+    window.onload = function addAdminMenuItems() {
+        this.document.getElementById('ulMenu').innerHTML = '';
+        var myLi = this.document.createElement('li');
+        myLi.setAttribute("class", "nav-item");
+        var myA = this.document.createElement('button');
+        myA.setAttribute("class", "btn");
+        myA.setAttribute("id", "btnMyStab");
+        myA.setAttribute("type", "button");
+        myA.setAttribute("onclick", "btnVerCentrosCliente()");
+        myA.innerText = "Ver Centros de Entrenamiento";
+        myLi.appendChild(myA);
+        this.document.getElementById('ulMenu').appendChild(myLi);
+    }
+</script>

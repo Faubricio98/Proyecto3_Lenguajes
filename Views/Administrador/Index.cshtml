@@ -17,6 +17,7 @@
 
 <script type="text/javascript">
     window.onload = function addAdminMenuItems() {
+        this.document.getElementById('ulMenu').innerHTML = '';
         var myLi = this.document.createElement('li');
         myLi.setAttribute("class", "nav-item");
         //<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
