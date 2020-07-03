@@ -391,7 +391,6 @@ function btnGenerarResumen() {
     var f_f = document.getElementById('fecha_f').value;
 
     parametros = { "fecha_i": f_i, "fecha_f": f_f };
-    alert(f_i + ' ' + f_f);
     $.ajax(
         {
             data: parametros,
@@ -406,4 +405,8 @@ function btnGenerarResumen() {
             } //se ha enviado
         }
     );
+}
+
+function btnVerCentrosCliente() {
+    window.location.href = "/CentrosCliente";
 }
